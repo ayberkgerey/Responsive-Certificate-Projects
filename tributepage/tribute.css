@@ -1,0 +1,53 @@
+#main{
+    background: cadetblue;
+    font-family: "Papyrus";
+    color: white;
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#title{
+     font-size: 4em;
+ }
+
+
+#img-div{
+    align-self: center;
+    text-align: center;
+}
+
+#image{
+    max-width: 90%;
+    height: auto;
+    border-radius: 25px;
+}
+
+#img-caption{
+    font-size: 1.2em;
+}
+
+li{
+    padding-top: 20px;
+}
+
+#tribute-info{
+    padding: 0px 20% 0px 20%;
+    font-weight: bold;
+}
+
+#tribute-link{
+    color: cyan;
+    padding: 0px 20% 0px 20%;
+}
+
+#tribute-link:hover{
+    color: aquamarine;
+}
