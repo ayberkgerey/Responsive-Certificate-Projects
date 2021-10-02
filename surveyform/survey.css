@@ -1,0 +1,86 @@
+#main{
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2019/08/harley-davidson-somewhere_1565055811.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    font-family: cursive;
+
+}
+
+#header{
+    text-align: center;
+    color: black;
+    top: 10px;
+    line-height: 15px;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#description{
+    text-align: center;
+    font-size: 2.0em;
+}
+
+#survey-form{
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 50px auto 50px auto;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 60%;
+    height: auto;
+}
+
+label{
+    line-height: 55px;
+    margin-right: 60%;
+    color: rgb(252,233,219);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.cus-input{
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: cursive;
+    width: 70%;
+    height: 45px;
+}
+
+#dropdown{
+    width: 75%;
+}
+
+.radio-btn{
+    color: rgb(252,233,219);
+    margin-right: auto;
+    font-size: 0.5em;
+}
+.radio-label{
+    margin-right: 30%;
+}
+
+textarea{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+#submit{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: cursive;
+}

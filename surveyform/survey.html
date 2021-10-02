@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="survey.css">
+    <meta charset="UTF-8">
+    <title>CMC</title>
+</head>
+
+<body id="main">
+<header id="header">
+    <h1 id="title">Chopper Motorbike Club</h1>
+    <p id="description">Join Us Now!</p>
+</header>
+
+<form id="survey-form">
+    <div>
+    <label id="name-label" for="name">Name</label><br>
+    <input placeholder="name" id="name" class="cus-input" type="text"><br>
+    <label id="email-label" for="email">Email</label><br>
+    <input placeholder="example@gmail.com" class="cus-input" id="email" type="email"  pattern="[^ @]*@[^ @]*"><br>
+    <label id="number-label" for="number">Age</label><br>
+    <input placeholder="your age" id="number" class="cus-input" type="number" min="18" max="70" required><br>
+    <label style="margin-right: 45%" id="dropdown-label" for="dropdown">Current Role</label><br>
+    <select placeholder="my role" class="cus-input" id="dropdown">
+        <option value="javascript">Student</option>
+        <option value="php">Worker</option>
+        <option value="java">Not Working</option>
+        <option value="golang">Retired</option>
+    </select><div style="margin-top: 45px"/>
+    </div>
+
+    <div>
+    <label style="margin-right: 20%;" id="radio-label" >Why do you want to join?</label><br>
+    <div style="display: inline-block;  white-space: nowrap; margin-right: 25%;">
+    <input class="radio-btn"  type="radio" name="radioA" value="A">
+    <label class="radio-label">Meeting new people</label><br>
+    <input  class="radio-btn"  type="radio" name="radioB" value="B">
+    <label class="radio-label">For a ride with group</label><br>
+    <input  class="radio-btn"  type="radio" name="radioC" value="C">
+    <label class="radio-label">For looking arround</label><br>
+    <input class="radio-btn"  type="radio" name="radioD" value="D">
+    <label class="radio-label">Meeting new people</label><br>
+    </div>
+    <div style="margin-top: 45px"/>
+    </div>
+
+    <div>
+    <label style="margin-right: 25%;" >Which type do you prefer?</label><br>
+    <div style="display: inline-block;  white-space: nowrap; margin-right: 35%;">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Classic">
+    <label for="vehicle1">Classic Bobber</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Pro-Street">
+    <label for="vehicle2">Pro-Street</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Fat-Bob">
+    <label for="vehicle3">Fat Bob</label><br>
+    <input type="checkbox" id="vehicle4" name="vehicle4" value="Bagger">
+    <label for="vehicle4">Bagger</label><br>
+    </div>
+    </div>
+    <div style="margin-top: 45px"/>
+
+        <label style="white-space: nowrap; margin-left: 12%" for="textA">Tell us about yourself</label>
+        <textarea id="textA" name="comment" rows="10" cols="50"></textarea>
+<br>
+    <input id="submit" type="submit" style="margin-top: 40px"/>
+</form>
+
+
+
+</body>
+</html>
