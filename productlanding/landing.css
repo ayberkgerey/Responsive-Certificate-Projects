@@ -1,0 +1,120 @@
+
+body{
+    background: linear-gradient(90deg,#870000, #190a05);
+    margin-bottom: 200px;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+}
+
+h2{
+    margin-top: 50px;
+    color: white;
+    font-size: 2em;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin-right: 2vw;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: darkred;
+}
+
+#header{
+    z-index:100;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-div{
+    display: flex;
+    flex-direction: row;
+}
+
+#header-img{
+    max-width: 80px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        display: none;
+    }
+    #header-img{
+        max-width: 40px;
+        height: auto;
+    }
+    .nav-link{
+        font-size: 0.7em;
+    }
+}
+
+#navbar{
+    white-space: nowrap;
+    font-size: 1.5em;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+}
+
+#features{
+    margin-top: 13%;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+#video{
+    margin-top: 5%;
+}
+
+#product{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: -100px;
+    padding: 10%;
+
+}
+#product li{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#product p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+}
+
+input{
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+
+#submit{
+    width: 100px;
+}
+
+
